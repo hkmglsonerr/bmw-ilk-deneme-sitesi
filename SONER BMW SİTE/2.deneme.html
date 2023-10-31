@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW TÜRKİYE</title>
+    <!-- link reel type href ile icon ekleriz siteye -->
+    <link
+      rel="website icon"
+      type="png"
+      href="https://cdn.icon-icons.com/icons2/1834/PNG/512/iconfinderbmwlogo4140436-115966_115915.png"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+
+      .arkaplan {
+        background-image: url("adsfsa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+      }
+      img {
+        max-width: 13%;
+        height: auto;
+      }
+      #BMWİ5:hover {
+        font-size: 20px;
+        color: turquoise;
+      }
+      #m60xdrive:hover {
+        font-size: 20px;
+        color: turquoise;
+      }
+      #granturismo:hover {
+        font-size: 20px;
+        color: turquoise;
+      }
+      #m8coupe:hover {
+        font-size: 20px;
+        color: turquoise;
+      }
+      a {
+        color: white;
+      }
+      /* no-underline-link bize linklerin altı çizili olmasını ayarlar */
+      .no-underline-link {
+        text-decoration: none;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      input[type="text"] {
+        width: 12%;
+      }
+      input[type="date"] {
+        width: 10%;
+      }
+      input[type="submit"]:hover {
+        background-color: turquoise;
+        font-size: 15px;
+        transition: all 0.5s ease;
+      }
+      input[type="reset"]:hover {
+        background-color: turquoise;
+        font-size: 15px;
+        transition: all 0.5s ease;
+      }
+      .center-table {
+        margin: 0 auto; /* Tabloyu yatay olarak ortalar */
+        margin-left: 50; /* Tabloyu soldan uzaklaştırır */
+      }
+      table,
+      th,
+      td {
+        border: 3px solid black;
+      }
+      table {
+        background-color: aliceblue;
+        width: 30%;
+        height: 150%;
+        background-size: cover;
+        background-position: center;
+      }
+      .gallery {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+      }
+      .gallery_item {
+        scroll-snap-align: center;
+        min-width: 500%;
+      }
+      .gallery_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="arkaplan">
+      <h1>BMW FİYAT LİSTESİ</h1>
+      <div class="image">
+        <img
+          src="https://wallpapers.com/images/featured/bmw-logo-jw4vqn06c9bkxtry.jpg"
+          alt=""
+        />
+      </div>
+      <br />
+      <h2 style="color: darkcyan"><u>MODEL LİSTESİ</u></h2>
+      <br />
+      <a
+        id="BMWİ5"
+        href="https://www.bmw.com.tr/tr/all-models/bmw-i/i5/bir-bakista.html"
+        class="no-underline-link"
+        target="_blank"
+        >BMW İ5</a
+      ><br /><br />
+
+      <a
+        id="m60xdrive"
+        href="https://www.bmw.com.tr/tr/all-models/m-serisi/i5-m60-xdrive/i5-m60-xdrive-bir-bakista.html#technical-data"
+        class="no-underline-link"
+        target="_blank"
+        >BMW İ5 M50 xDrive</a
+      ><br /><br />
+
+      <a
+        id="granturismo"
+        href="https://www.bmw.com.tr/tr/all-models/6-series/gran-turismo/2021/bmw-6-serisi-gran-turismo-one-cikan-ozellikler.html"
+        class="no-underline-link"
+        target="_blank"
+        >BMW 6 serisi Gran Turismo</a
+      ><br /><br />
+
+      <a
+        id="m8coupe"
+        href="https://www.bmw.com.tr/tr/all-models.html?detail=8_BMW-M8-Coup%C3%A9"
+        class="no-underline-link"
+        target="_blank"
+        >BMW M8 Coupe</a
+      >
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <h3 style="color: darkcyan"><u>SOSYAL MEDYA HESAPLARI</u></h3>
+      <br />
+      <a
+        href="https://twitter.com/BMWTurkiye?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+        target="blank"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png"
+          width="55"
+          height="55"
+        /><br /><br />
+        <a href="https://www.instagram.com/bmwturkiye/" target="blank">
+          <img
+            src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+            width="50"
+            height="50"
+          /><br /><br />
+        </a>
+      </a>
+      <hr />
+      <br />
+      <h4 style="color: turquoise"><u>FİYAT TABLOSU</u></h4>
+      <br />
+      <div style="text-align: center">
+        <table class="center-table">
+          <tr style="color: black">
+            <th>MODEL</th>
+            <th>FİYAT</th>
+          </tr>
+          <tr style="color: black">
+            <td>BMW İ5</td>
+            <td>4 Milyon 950 Bin ₺</td>
+          </tr>
+          <tr style="color: black">
+            <td>BMW İ5 M50 xDrive</td>
+            <td>5 Milyon 550 Bin ₺</td>
+          </tr>
+          <tr style="color: black">
+            <td>BMW 6 serisi Gran Turismo</td>
+            <td>6 Milyon 620 Bin ₺</td>
+          </tr>
+          <tr style="color: black">
+            <td>BMW M8 Coupe</td>
+            <td>15 Milyon 200 Bin ₺</td>
+          </tr>
+        </table>
+        <br />
+      </div>
+      <hr />
+      <br /><br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.6383148156656!2d9.084076680374276!3d48.73150234624322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799dc370162aea7%3A0xfdd2ccbc56c41c6a!2sBMW%20Stuttgart!5e0!3m2!1str!2str!4v1697222199046!5m2!1str!2str"
+        width="500px"
+        height="250px"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <iframe
+        width="500px"
+        height="250px"
+        src="https://www.youtube.com/embed/6Viyt2aIOG8?si=OGV405GE5v6CamOP"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe
+      ><br /><br />
+      <hr />
+      <br />
+      <h4 style="color: white"><u>SİZE ULAŞALIM</u></h4>
+      <br />
+      <form
+        action="https://www.bmw.com.tr/tr/konfigurator-bmwnitasarla.html"
+        method="get"
+        target="_blank"
+      >
+        <label style="color: white">Ad Soyad: </label>
+        <input type="text" placeholder="Ad-Soyad giriniz" /><br /><br />
+
+        <label>Şifreniz: </label>
+        <input type="password" placeholder="Şifre giriniz" /><br /><br />
+        <label>Email: </label>
+        <input class="email" placeholder="example@gmail.com" /><br /><br />
+        <label>Doğum Tarihi :</label>
+        <input type="date" /><br /><br />
+        <label>Telefon: </label>
+        <input type="text" name="" placeholder="+90 555 555 55" /><br /><br />
+
+        <input type="submit" name="" />
+        <input type="reset" name="" /><br /><br />
+      </form>
+      <hr />
+      <br />
+      <h1><u>GALERİ</u></h1>
+      <div class="gallery">
+        <div class="gallery_item">
+          <img src="bmwi5.jpg" alt="" class="gallery_image" />
+          <img src="bmwiç.jpg" alt="" class="gallery_image" />
+          <img src="mxdrive.jpg" alt="" class="gallery_image" />
+          <img src="bmwön.jpg" alt="" class="gallery_image" />
+          <img src="granturismo.jpg" alt="" class="gallery_image" />
+          <img src="bmwm4.jpg" alt="" class="gallery_image" />
+          <img src="m8coupe.jpg" alt="" class="gallery_image" />
+        </div>
+        <hr />
+        <br />
+      </div>
+      <footer>&copy; Tüm hakları BMW'ye aittir.</footer>
+    </div>
+  </body>
+</html>
